@@ -1,0 +1,54 @@
+*{ margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+
+}
+
+.conteudo{
+    background-image: url(../imagens/criaturas.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align:center;
+    
+    
+}
+
+.texto{
+  color: whitesmoke; 
+  display: flex; 
+  justify-items:center; 
+  align-items:center;
+  flex-direction: column; 
+  padding-top: 20px;
+  width:100%;
+  height: 600px;
+  font-size: 40px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.botao{    
+    height: 40px;
+    width: 120px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+  }
+
+  .botao:hover{
+    background: red;
+  }
+
+  .rodape{
+    
+    color: whitesmoke;
+    font-size: 20px;
+
+  }
+
+
+

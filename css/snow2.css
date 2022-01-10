@@ -1,0 +1,41 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+  }
+  
+  .conteudo{
+
+      background-image: url(../imagens/praca.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      
+  }
+
+  .texto{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.267);
+    text-align:center;
+    font-size: 40px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 550px;
+  }
+
+  
+  
+  .botao{    
+      height: 50px;
+      width: 120px;
+      background-color: rgb(54, 54, 241);
+      border-radius: 10px;
+      margin: 0px auto;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .botao:hover{
+      background: yellow;
+    }
+  

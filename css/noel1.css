@@ -1,0 +1,46 @@
+*{ margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+
+}
+
+.conteudo{
+    background-image: url(../imagens/demoniosneve.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.texto{
+  color: whitesmoke;
+  text-align:center;
+  background: rgba(85, 81, 79, 0.37);
+  width: 550px;
+  font-size: 20px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.botao{    
+    height: 40px;
+    width: 120px;
+    background-color: #e97634ef;
+    border-radius: 10px;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+  }
+
+  .botao:hover{
+    background: #25b36c;
+  }
+  .rodape{
+    
+    color: whitesmoke;
+    font-size: 20px;
+
+  }
+
+

@@ -1,0 +1,45 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+  }
+
+
+.conteudo{
+    font-size: 40px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../imagens/sadsnow.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    }
+
+.texto{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    border: 2px solid red;
+    
+    }
+
+ .botao{    
+    height: 40px;
+    width: 120px;
+    background-color: #B8CCD9;
+    border-radius: 10px;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+    }
+
+.botao a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+    } 
+  
+.botao:hover{
+        background: #226ba7;
+      }

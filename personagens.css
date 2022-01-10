@@ -1,0 +1,61 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-image: url(./imagens/portal4.jpg);
+    background-repeat: no-repeat;
+  
+}
+
+.containertexto {
+    color: #F7F8F3;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    background: #20308c3d;
+    height: 180px;
+   
+    
+}
+
+
+.personagens{
+display: flex;
+justify-content: space-around;
+
+}
+
+.card{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+.nomes{
+    font-size: 30px;
+    color: black;
+  
+}
+
+.botao{
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background: #6E30F2;
+    color: black;
+}
+
+
+.botao a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #F7F8F3;
+} 
+
+.botao:hover{
+    background:#20308C;
+
+}

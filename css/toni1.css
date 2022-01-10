@@ -1,0 +1,37 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+  }
+  
+  .conteudo{
+    font-size: 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-image: url(../imagens/toni1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      
+  }
+
+  .texto{
+    text-align:center;
+    background: rgba(85, 81, 79, 0.37);
+    width: 550px;
+  }
+ 
+
+  .botao{    
+      height: 40px;
+      width: 120px;
+      background-color: #e97634ef;
+      border-radius: 10px;
+      margin: 0px auto;
+      border: none;
+      cursor: pointer;
+    }
+
+    .botao:hover{
+      background: #25b36c;
+    }

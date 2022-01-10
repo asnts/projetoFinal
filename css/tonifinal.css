@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.conteudo{
+    background-image: url(../imagens/toniend.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+.texto{   
+    text-align: center;
+    font-size: 40px;
+    color: rgb(14, 34, 14);
+   
+
+    
+   
+   
+   }

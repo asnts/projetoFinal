@@ -1,0 +1,39 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+}
+  
+.conteudo{
+      background-image: url(../imagens/mansao.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      
+}
+.texto{ 
+      text-align:center;  
+      color: whitesmoke; 
+      background-color: rgba(112, 84, 131, 0.356);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
+      font-size: 30px; 
+      width: 550px;
+      height: 200px;
+  
+}
+        
+  
+.botao{
+        height: 50px;
+        width: 120px;
+        background-color: #B8CCD9;
+        border-radius: 10px;
+        margin: 0px auto;
+        border: none;
+        cursor: pointer;
+ }
+  
+.botao:hover{
+        background: #20308C;
+}

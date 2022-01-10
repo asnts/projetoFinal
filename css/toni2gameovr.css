@@ -1,0 +1,43 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  
+  }
+
+
+.conteudo{
+    text-align: center;
+    font-size: 40px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../imagens/panetone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+    }
+
+.texto{    
+    }
+
+ .botao{    
+    height: 40px;
+    width: 120px;
+    background-color: #B8CCD9;
+    border-radius: 10px;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+    }
+
+.botao a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+    } 
+  
+.botao:hover{
+        background: #20308C;
+      }
+
+ 
