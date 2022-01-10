@@ -10,16 +10,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    padding-top: 50px;
     
 }
 
 .texto{
   color: whitesmoke;
   text-align:center;
-  background: rgba(85, 81, 79, 0.37);
-  width: 550px;
+  background: rgba(26, 25, 25, 0.698);
+  width: 60%;
+  padding: 2%;
   font-size: 20px; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 
@@ -28,7 +35,7 @@
     width: 120px;
     background-color: #e97634ef;
     border-radius: 10px;
-    margin: 0px auto;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
   }
@@ -36,11 +43,25 @@
   .botao:hover{
     background: #25b36c;
   }
-  .rodape{
-    
-    color: whitesmoke;
-    font-size: 20px;
 
+ 
+  .rodape{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position:relative;
+    bottom:0;
+    left:0;
+    text-align: center;
+    border: 2px solid red;
+    color: whitesmoke;
+    
+    
   }
+
+  
+  
 
 
