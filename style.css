@@ -15,8 +15,7 @@ box-sizing: border-box;
     background-image: url(./imagens/bgg.jpg);
     background-repeat: no-repeat;
     
-  
-   
+     
     
 }
 
@@ -54,3 +53,22 @@ box-sizing: border-box;
    
 
 
+@media (max-width: 900px){
+    .containerinicio{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-position: center;    
+        
+        
+    }
+
+    .containerinicio h1,h2{
+        font-size: 30px;
+    }
+    
+
+}
