@@ -11,6 +11,11 @@
       background-repeat: no-repeat;
       background-size: cover;
       height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;    
+      align-items: center;
+      padding-top: 50px;
       
   }
 
@@ -18,19 +23,20 @@
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.267);
     text-align:center;
-    font-size: 40px; 
+    padding: 2%;
+    font-size: 25px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 550px;
+    width: 60%;
   }
 
   
   
   .botao{    
       height: 50px;
-      width: 120px;
-      background-color: rgb(54, 54, 241);
+      width: 130px;
+      background-color: rgb(21, 21, 233);
       border-radius: 10px;
-      margin: 0px auto;
+      margin-top: 20px;
       border: none;
       cursor: pointer;
     }
@@ -38,4 +44,60 @@
     .botao:hover{
       background: yellow;
     }
+
+
+    .rodape{    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 70px;
+      position:relative;
+      bottom:0;
+      left:0;
+      text-align: center;
+      color: whitesmoke;      
+      
+    }
+
+    @media (max-width: 900px){
+      .containerinicio{
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          height: 40%;
+          width: 100%;
+          background-position: center;
+          background-size: contain;    
+          
+          
+      }
+  
+      .containerinicio {
+          font-size: 05px;
+      }
+
+    }    
+      @media (max-width: 700px){
+        .containerinicio{
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            flex-direction: column;
+            height: 40px;
+            width: 100%;
+            background-position: center;
+            background-size: cover;    
+            
+            
+        }
+    
+        .containerinicio {
+            font-size: 02px;
+        }
+    }
+  
+    
   

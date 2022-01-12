@@ -43,7 +43,7 @@
   .botao:hover{
     background: #25b36c;
   }
-
+ 
  
   .rodape{    
     display: flex;
@@ -55,12 +55,29 @@
     bottom:0;
     left:0;
     text-align: center;
-    border: 2px solid red;
     color: whitesmoke;
     
     
   }
 
+  @media (max-width: 900px){
+    .containerinicio{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: contain;    
+        
+        
+    }
+
+    .containerinicio {
+        font-size: 30px;
+    }
+  }
   
   
 

@@ -1,5 +1,5 @@
 
-function toni1 (){
+function toni1(){
     
     while (true) {
         var escolha = prompt("Toni está perdido e o primeiro amuleto está em seu novo local, mas onde ele está? \n 1) Continua em Milão mas está no futuro \n 2) Winchester")

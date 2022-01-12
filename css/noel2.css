@@ -10,15 +10,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    padding-top: 50px;
     
 }
 
 .texto{
   color: whitesmoke;
   text-align:center;  
-  background: rgba(85, 81, 79, 0.37);
-  width: 550px;
-  font-size: 20px; 
+  background: rgba(26, 25, 25, 0.603);
+  width: 60%;
+  padding: 2%;
+  font-size: 25px; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -28,20 +34,38 @@
     width: 120px;
     background-color: #836b5fef;
     border-radius: 10px;
-    margin: 0px auto;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
   }
 
   .botao:hover{
-    background: rgb(230, 42, 42);
+    background: rgb(71, 40, 107);
   }
   .rodape{
     
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 18px;
 
   }
+  @media (max-width: 900px){
+    .containerinicio{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: contain;    
+        
+        
+    }
 
+    .containerinicio {
+        font-size: 30px;
+    }
+  }
+  
 
 

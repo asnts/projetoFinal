@@ -1,5 +1,5 @@
 
-function toni3 () {
+function toni3() {
     
     while (true) {
         var escolha = prompt(" Jogue o dado do tempo, quanto maior for o número mais tempo ele terá pra chegar: \n  1)   \n 2) ")

@@ -10,6 +10,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    padding-top: 50px;
     
 }
 
@@ -17,8 +22,9 @@
   color: whitesmoke;
   text-align:center;
   background: rgba(85, 81, 79, 0.37);
-  width: 550px;
-  font-size: 20px; 
+  width:60%;
+  padding: 2%;
+  font-size: 25px; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -28,14 +34,60 @@
     width: 120px;
     background-color: #e97634ef;
     border-radius: 10px;
-    margin: 0px auto;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
   }
 
   .botao:hover{
-    background: #25b36c;
+    background: #3c2292;
   }
 
+  .rodape{
+    
+    color: whitesmoke;
+    font-size: 18px;
 
+  }
 
+  @media (max-width: 900px){
+    .containerinicio{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 40%;
+        width: 100%;
+        background-position: center;
+        background-size: contain;    
+        
+        
+    }
+
+    .containerinicio {
+        font-size: 05px;
+    }
+  }
+
+/* FALTA RESOLVER RESPONSIVIDADE */
+    @media (max-width: 700px){
+      .containerinicio{
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 30px;
+          flex-direction: column;
+          height: 40px;
+          width: 100%;
+          background-position: center;
+          background-size: cover;    
+          
+          
+      }
+  
+      .containerinicio {
+          font-size: 02px;
+      }
+  }
+
+  

@@ -1,4 +1,4 @@
-function snow2 (){
+function snow2(){
     
     while (true) {
         var escolha = prompt("\n 1) Na mansão dos Bridgerton \n 2) Caído no bueiro da Av. Downtown \n 3) Quem disse que precisa de outro amuleto?")

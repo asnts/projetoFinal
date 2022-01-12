@@ -13,6 +13,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    padding-top: 50px;
 
     }
 
@@ -20,7 +25,8 @@
     display: flex;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 550px;
+    width:60%;
+    padding: 2%;
    
     }
 
@@ -42,4 +48,19 @@
   
 .botao:hover{
         background: #2982ca;
+      }
+
+    .rodape{    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        position:relative;
+        bottom:0;
+        left:0;
+        text-align: center;
+        color: whitesmoke;
+        
+        
       }

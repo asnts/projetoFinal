@@ -1,4 +1,4 @@
-function snow3 (){
+function snow3(){
     
     while (true) {
         var escolha = prompt("Jogue o dado para a temperatura baixar e o Snow sobreviver \n 1) \n 2) \n 3)")

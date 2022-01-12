@@ -1,5 +1,5 @@
 
-function toni2 (){
+function toni2(){
     
     while (true) {
        

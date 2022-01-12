@@ -1,4 +1,4 @@
-function noel3 (){
+function noel3(){
     
     while (true) {
         var escolha = prompt(" Jogue o dado para testar sua sorte: \n 1)  \n 2) ")

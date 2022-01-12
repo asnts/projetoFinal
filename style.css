@@ -1,6 +1,7 @@
 *{margin: 0%;
 padding: 0px;
 box-sizing: border-box;
+
    
 }
 
@@ -14,18 +15,18 @@ box-sizing: border-box;
     width: 100%;
     background-image: url(./imagens/bgg.jpg);
     background-repeat: no-repeat;
-    
-     
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+        
     
 }
 
-.containerinicio h1,h2{
-    font-size: 50px;
-}
 
 .texto{
     background: rgba(26, 25, 25, 0.767);
-   
+    font-size: 30px;
+    width: auto;
+    
     
 
 }   
@@ -67,7 +68,7 @@ box-sizing: border-box;
         
     }
 
-    .containerinicio h1,h2{
+    .containerinicio h1, p{
         font-size: 30px;
     }
     

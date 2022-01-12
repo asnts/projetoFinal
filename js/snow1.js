@@ -1,5 +1,5 @@
 
-function snow1 (){
+function snow1(){
     
     while (true) {
         var escolha = prompt("Snow esta na praça e precisa encontrar uma peça importante para montar o primeiro amuleto, onde está essa peça?\n 1) Na árvore \n 2) Embaixo do banco \n 3) Não está na praça")
