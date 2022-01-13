@@ -35,7 +35,7 @@
 .botao{    
     height: 40px;
     width: 120px;
-    background-color: #e97634ef;
+    background-color: #b15151ef;
     border-radius: 10px;
     margin: 0px auto;
     border: none;
@@ -43,29 +43,78 @@
   }
 
   .botao a{
-    font-style: normal;
-  }
+    
+      text-decoration: none;
+      font-size: 14px;
+      color: black;
+  } 
+ 
 
   .botao:hover{
     background: #25b36c;
   }
 
   @media (max-width: 900px){
-    .containerinicio{
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        height: 100vh;
-        width: 100%;
-        background-position: center;
-        background-size: contain;    
+
+    .conteudo {
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          height: 100vh;
+          width: 100%;
+          background-position: center;
+          background-size: cover;    
+          
+          
+    }
+  
+    .texto{ 
+          font-size: 35px;
+          height: 100%;
+    }
+  
+    .rodape{
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 30px;
+      position:relative;
+      bottom:0;
+      left:0;
+      text-align: center;
+      font-size: 10px;
+        
+    }
+    
+}
+  
+  
+
+@media (max-width: 300px){
+
+  .conteudo{
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+     flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      background-size: cover;    
         
         
     }
-
-    .containerinicio {
-        font-size: 30px;
+  
+    .texto{ 
+        font-size: 20px;
     }
-  }
+  
+    .rodape{
+      font-size: 10px;
+      
+    }
 
+}    

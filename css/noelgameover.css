@@ -39,6 +39,12 @@
     cursor: pointer;
   }
 
+  .botao a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+  } 
+  
   .botao:hover{
     background: red;
   }

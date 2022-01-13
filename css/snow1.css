@@ -51,7 +51,7 @@
   }
 
   @media (max-width: 900px){
-    .containerinicio{
+    .conteudo{
         text-align: center;
         display: flex;
         justify-content: space-around;
@@ -64,30 +64,62 @@
         
     }
 
-    .containerinicio {
-        font-size: 05px;
+    .texto{ 
+        font-size: 20px;
+    }
+
+    .rodape{
+      font-size: 10px;
+      color: whitesmoke
     }
   }
 
-/* FALTA RESOLVER RESPONSIVIDADE */
+
     @media (max-width: 700px){
-      .containerinicio{
-          text-align: center;
-          display: flex;
-          justify-content: space-around;
-          margin-bottom: 30px;
-          flex-direction: column;
-          height: 40px;
-          width: 100%;
-          background-position: center;
-          background-size: cover;    
-          
-          
-      }
-  
-      .containerinicio {
-          font-size: 02px;
-      }
+      .conteudo{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: contain;    
+        
+        
+    }
+
+    .texto{ 
+        font-size: 10px;
+    }
+
+    .rodape{
+      font-size: 08px;
+      color: whitesmoke
+    }
+  }
+  @media (max-width: 300px){
+    .conteudo{
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;    
+      
+      
+  }
+
+  .texto{ 
+      font-size: 10px;
+  }
+
+  .rodape{
+    font-size: 08px;
+    color: whitesmoke
+  }
   }
 
   
