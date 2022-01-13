@@ -64,7 +64,7 @@
           display: flex;
           justify-content: space-around;
           flex-direction: column;
-          height: 40%;
+          height: 100%;
           width: 100%;
           background-position: center;
           background-size: contain;    
@@ -76,23 +76,30 @@
           font-size: 05px;
       }
 
-    }    
-      @media (max-width: 700px){
+      
+    } 
+    
+      @media (max-width: 320px){
         .containerinicio{
             text-align: center;
             display: flex;
             justify-content: space-around;
             margin-bottom: 30px;
             flex-direction: column;
-            height: 40px;
-            width: 100%;
-            background-position: center;
+            height: 100vh;
+             background-position: center;
             background-size: cover;    
             
             
         }
     
         .containerinicio {
-            font-size: 02px;
+            font-size: 10px;
         }
+
+        .texto{
+            width: 300px;
+        }
+
+        
     }

@@ -93,28 +93,79 @@
   
   
 
-@media (max-width: 300px){
-
+@media (max-width: 900px){
   .conteudo{
       text-align: center;
       display: flex;
       justify-content: space-around;
-     flex-direction: column;
+      flex-direction: column;
       height: 100vh;
       width: 100%;
       background-position: center;
-      background-size: cover;    
-        
-        
-    }
-  
-    .texto{ 
-        font-size: 20px;
-    }
-  
-    .rodape{
-      font-size: 10px;
+      background-size: contain;    
       
-    }
+      
+  }
 
-}    
+  .texto{ 
+      font-size: 20px;
+  }
+
+  .rodape{
+    font-size: 10px;
+    color: whitesmoke
+  }
+}
+
+
+  @media (max-width: 425px){
+    .conteudo{
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      background-size: contain;    
+      
+      
+  }
+
+  .texto{ 
+      font-size: 10px;
+  }
+
+  .rodape{
+    font-size: 08px;
+    color: whitesmoke
+  }
+}
+@media (max-width: 320px){
+  .conteudo{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;    
+    
+    
+}
+
+.texto{ 
+    font-size: 10px;
+}
+
+.rodape{
+  font-size: 08px;
+  color: whitesmoke
+}
+}
+
+
+
+
+

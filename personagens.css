@@ -119,8 +119,7 @@ padding-top: 10px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        height: 150%;
-        width: 180%;
+        height: 100vh;        
         background-position: center;
         background-size: cover;  
           
@@ -138,16 +137,16 @@ padding-top: 10px;
   
     .personagens{ 
         font-size: 15px;
-        height: auto;
+        height: 100%;
         width: 70%;
         display: flex;
         align-items: center;
-        border: 2px solid rgb(238, 255, 0);
+      
         
     }
 
     .card{
-        border: 2px solid red;
+        
         height: 70%;
         width: 70%;
     }
