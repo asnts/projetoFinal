@@ -29,7 +29,7 @@
 display: flex;
 justify-content: space-around;
 flex-direction: row;
-padding-top: 10px;
+
 
 }
 
@@ -44,6 +44,11 @@ padding-top: 10px;
     color: whitesmoke;
     background: #20308c80;
   
+}
+
+.card img{
+    max-width: 200px;
+    
 }
 
 .botao{
@@ -132,11 +137,58 @@ padding-top: 10px;
          position:relative;
         bottom:0;
         left:0;
-         
     } 
    
     
 }
+
+@media (max-width: 425px){
+
+    .conteudo{
+        border: solid 2px yellow;
+    }
+    .containertexto{
+        font-size: 15px;
+        background: #1e32a3b9;
+        padding: 2%;
+        
+    }
+
+    .personagens{
+        width: 100%;
+        height: auto;
+
+    }
+    .card{
+            width: 70px;
+            height: 50px;
+            text-align: center;
+            margin-bottom: 200px;
+                    }
+    .card h2{
+        font-size: 15px;
+    }                
+
+    .card img{
+        max-width: 80px;
+        
+    } 
+    
+    .card button{
+        height: 30px;
+        width: 50px;
+    }
+
+    .card button a{
+        font-size: 10px;
+    }
+       
+
+        
+    }
+
+
+
    
 
 @media (max-width: 300px){
@@ -187,3 +239,4 @@ padding-top: 10px;
     }
 
 }    
+
