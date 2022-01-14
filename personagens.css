@@ -81,32 +81,60 @@ padding-top: 10px;
     
     
   }
+  @media (max-width: 1024px){
 
-  @media (max-width: 900px) {
 
-    .conteudo {
-        text-align: center;
+    .conteudo{
+
+    }
+
+     .personagens{
+        margin-top: 40px;
+
+    }  
+
+    .card{
+        height: 300px;
+    }
+    
+    .rodape{
+    
+    height: 35px;
+    } 
+
+    .rodape p{
+        margin-top: 40px;
+    }
+   
+    
+}
+
+
+  @media (max-width: 768px) {
+
+    .conteudo{
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
-        height: 100%;
-        width: 100%;
-        background-position: center;
-        background-size: cover;  
-          
-          
+        justify-content: space-between;
+
+
     }
   
-    .containertexto{ 
-        font-size: 20px;
+     .containertexto{ 
+        font-size: 18px;
         height: auto;
     }
 
   
-    .rodape{
-      font-size: 10px;
-      
-    }
+     .rodape{
+        display: flex;
+        align-items: flex-end;
+         position:relative;
+        bottom:0;
+        left:0;
+         
+    } 
+   
     
 }
    
