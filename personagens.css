@@ -186,57 +186,12 @@ flex-direction: row;
 
         
     }
-
-
-
    
 
 @media (max-width: 300px){
 
 
-    .conteudo {
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        height: 100vh;        
-        background-position: center;
-        background-size: cover;  
-          
-          
-    }
-
-
-  .containertexto{
-      text-align: center;
-      height: auto;  
-      width: auto;
-               
-        
-    }
-  
-    .personagens{ 
-        font-size: 15px;
-        height: 100%;
-        width: 70%;
-        display: flex;
-        align-items: center;
-      
-        
-    }
-
-    .card{
-        
-        height: 70%;
-        width: 70%;
-    }
-
    
-  
-    .rodape{
-      font-size: 10px;
-           
-    }
 
 }    
 
