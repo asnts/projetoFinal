@@ -140,6 +140,15 @@ flex-direction: row;
 
 @media (max-width: 425px){
 
+    .conteudo {
+      
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    height: 100vh;
+    width: 100%;
+    }
+
     .containertexto{
         font-size: 15px;
         background: #1e32a3b9;
@@ -159,7 +168,7 @@ flex-direction: row;
         margin-bottom: 200px;
         }
 
-    .card .nomes{
+    .card p{
         font-size: 10px;
     }                
 
